@@ -1,4 +1,3 @@
-
 #!/bin/bash
 for f in *.zip
 do
