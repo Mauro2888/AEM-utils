@@ -23,3 +23,17 @@ mvn archetype:generate -DinteractiveMode=false \
   -DoptionFrontend=y \
   -DoptionNodeJsPlugin=n \
   -DoptionIntegrationTests=n
+  
+  
+  ##################################
+  
+  mvn -B archetype:generate \
+ -D archetypeGroupId=com.adobe.granite.archetypes \
+ -D archetypeArtifactId=aem-project-archetype \
+ -D archetypeVersion=23 \
+ -D aemVersion=6.5.0 \
+ -D appTitle="My Site" \
+ -D appId="mysite" \
+ -D groupId="com.mysite" \
+ -D frontendModule=general \
+ -D includeExamples=n
