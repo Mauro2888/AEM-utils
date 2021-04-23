@@ -13,11 +13,7 @@ import org.redquark.demo.core.utils.Network;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-/**
- * @author Anirudh Sharma
- * 
- * This servlet uses the HTTP GET method to read a data from the RESTful webservice
- */
+
 @Component(service = Servlet.class, property = {
 		Constants.SERVICE_DESCRIPTION + "=JSON Servlet to read the data from the external webservice",
 		"sling.servlet.methods=" + HttpConstants.METHOD_GET, "sling.servlet.paths=" + "/bin/readjson" })
